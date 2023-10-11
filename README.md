@@ -80,9 +80,9 @@ PartA
 4. ***Store results in S3 bucket:*** The results are then written to S3 bucket as a TXT file `transactions_total.txt` using the boto3 library and the Spark session is stopped using `stop()` method.
 
 #### Output:
-The bar plot showing the total number of transactions occurring each month (sorted first on month and then year) between the start and end of the dataset is obtained. The code used to obtain this graph can be found in [`PartA/transactions_total.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartA/transactions_total.ipynb)
+The bar plot showing the total number of transactions occurring each month (sorted first on month and then year) between the start and end of the dataset is obtained. The code used to obtain this graph can be found in [`PartA/transactions_total.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartA/transactions_total.ipynb)
 
-![alt txt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartA/output/transactions_total.png?raw=true)
+![alt txt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartA/output/transactions_total.png?raw=true)
 
 ### 1.2. Average Transactions
 
@@ -135,9 +135,9 @@ PartA
 10.  ***Storing the results in an S3 bucket:*** The results are then written to S3 bucket as a TXT file `transactions_avg.txt` using the boto3 library and the Spark session is stopped using `stop()` method.
 
 #### Output:
-The bar plot showing the average value of transaction in each month (sorted first on month and then year) between the start and end of the dataset is obtained. The code used to obtain this graph can be found in [`PartA/transactions_average.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartA/transactions_average.ipynb)
+The bar plot showing the average value of transaction in each month (sorted first on month and then year) between the start and end of the dataset is obtained. The code used to obtain this graph can be found in [`PartA/transactions_average.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartA/transactions_average.ipynb)
 
-![alt txt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartA/output/transactions_avg.png?raw=true)
+![alt txt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartA/output/transactions_avg.png?raw=true)
 
 ## Part B. Top Ten Most Popular Services (25%)
 
@@ -195,9 +195,9 @@ PartB
 
 #### Output:
 
-The following are the top 10 smart contracts by total Ether received. The code used to generate this table can be found in [`PartB/top_smart_contracts.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartB/top_smart_contracts.ipynb)
+The following are the top 10 smart contracts by total Ether received. The code used to generate this table can be found in [`PartB/top_smart_contracts.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartB/top_smart_contracts.ipynb)
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartB/output/top_contracts.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartB/output/top_contracts.png?raw=true)
 
 
 
@@ -237,9 +237,9 @@ The data used in this code is fetched from CSV files stored in an S3 bucket. The
 
 #### Output:
 
-The following are the top 10 by block size. The code used to generate this table can be found in [`PartC/top-miners.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartC/top_miners.ipynb)
+The following are the top 10 by block size. The code used to generate this table can be found in [`PartC/top-miners.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartC/top_miners.ipynb)
 
-![alt](Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartC/output/top_miners.png?raw=true)
+![alt](Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartC/output/top_miners.png?raw=true)
 
 ## Part D. Data exploration (40%)
 
@@ -314,7 +314,7 @@ PartD/scam_analysis/popular_scams
 
 #### Output:
 
-The below list shows the most lucrative form of scams wrt to total value. The most lucrative form of scam is found to be `Phishing` with total value of  `4.32186e+22` The code to generate this table can be found in [`PartD/scam_analysis/popular_Scams/scams_category.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/scams_category.ipynb)
+The below list shows the most lucrative form of scams wrt to total value. The most lucrative form of scam is found to be `Phishing` with total value of  `4.32186e+22` The code to generate this table can be found in [`PartD/scam_analysis/popular_Scams/scams_category.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/scams_category.ipynb)
 | Type     |       Value |   Rank |
 |----------|-------------|--------|
 | Phishing | 4.32186e+22 |      1 |
@@ -324,41 +324,41 @@ The below list shows the most lucrative form of scams wrt to total value. The mo
 
 The below is the list of popular scams. The most popular scam is found to be Scamming with scam id of `5622` with value of `1.67091e+22`
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/output/popular_scams.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/output/popular_scams.png?raw=true)
 
 
 
 
-The below plot shows how ether received has changed over time. The code for this graph can be found here [`PartD/scam_analysis/popular_scams/scam_category.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/scams_category.ipynb)
+The below plot shows how ether received has changed over time. The code for this graph can be found here [`PartD/scam_analysis/popular_scams/scam_category.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/scams_category.ipynb)
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/output/ether_time.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/output/ether_time.png?raw=true)
 
-The code for the below plots can be found here [`PartD/scam_analysis/popular_scams/scam_category_status.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/scams_category_status.ipynb)
+The code for the below plots can be found here [`PartD/scam_analysis/popular_scams/scam_category_status.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/scams_category_status.ipynb)
 
 **Active Scams:**
 
 The below plot show how ether receive has changed over time for Active scams.
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/output/active_scam.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/output/active_scam.png?raw=true)
 
 **Inactive Scams**
 
 The below plot show how ether receive has changed over time for Inactive scams.
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/output/inactive_scam.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/output/inactive_scam.png?raw=true)
 
 
 **Offline Scams**
 
 The below plot show how ether receive has changed over time for Offline scams.
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/output/offline_scam.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/output/offline_scam.png?raw=true)
 
 **Suspended Scams**
 
 The below plot show how ether receive has changed over time for Suspended scams.
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/scam_analysis/popular_scams/output/suspended_scam.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/scam_analysis/popular_scams/output/suspended_scam.png?raw=true)
 
 **Inference:**
 
@@ -472,10 +472,10 @@ PartD/miscellaneous_analysis/gas_guzzlers
 
 #### Output:
 
-The below plot shows the Average gas price with respect to Month/Year (sorted first on month and then year). The code for the below graph can be found here [`PartD/miscellaneous_analysis/gas_guzzlers/gas_price_average.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/miscellaneous_analysis/gas_guzzlers/gas_price_average.ipynb)
+The below plot shows the Average gas price with respect to Month/Year (sorted first on month and then year). The code for the below graph can be found here [`PartD/miscellaneous_analysis/gas_guzzlers/gas_price_average.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/miscellaneous_analysis/gas_guzzlers/gas_price_average.ipynb)
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/miscellaneous_analysis/gas_guzzlers/output/gas_price_avg.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/miscellaneous_analysis/gas_guzzlers/output/gas_price_avg.png?raw=true)
 
-The below plot shows the Average gas used with respect to Month/Year (sorted first on month and then year). The code for the below graphs can be found here [`PartD/miscellaneous_analysis/gas_guzzlers/gas_price_used.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/miscellaneous_analysis/gas_guzzlers/gas_price_used.ipynb)
+The below plot shows the Average gas used with respect to Month/Year (sorted first on month and then year). The code for the below graphs can be found here [`PartD/miscellaneous_analysis/gas_guzzlers/gas_price_used.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/miscellaneous_analysis/gas_guzzlers/gas_price_used.ipynb)
 
-![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/master/PartD/miscellaneous_analysis/gas_guzzlers/output/gas_used_avg.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartD/miscellaneous_analysis/gas_guzzlers/output/gas_used_avg.png?raw=true)
