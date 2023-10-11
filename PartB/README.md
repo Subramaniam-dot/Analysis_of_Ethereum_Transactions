@@ -54,6 +54,6 @@ PartB
 
 #### Output:
 
-The following are the top 10 smart contracts by total Ether received. The code used to generate this table can be found in [`PartB/top_smart_contracts.ipynb`](https://github.com/sasidharan01/ECS765P-analysis-of-ethereum-transactions-and-smart-contracts/blob/master/PartB/top_smart_contracts.ipynb)
+The following are the top 10 smart contracts by total Ether received. The code used to generate this table can be found in [`PartB/top_smart_contracts.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartB/top_smart_contracts.ipynb)
 
-![alt](https://github.com/sasidharan01/ECS765P-analysis-of-ethereum-transactions-and-smart-contracts/blob/master/PartB/output/top_contracts.png?raw=true)
+![alt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartB/output/top_contracts.png?raw=true)
