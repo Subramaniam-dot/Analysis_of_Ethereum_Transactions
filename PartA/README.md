@@ -48,9 +48,9 @@ PartA
 4. ***Store results in S3 bucket:*** The results are then written to S3 bucket as a TXT file `transactions_total.txt` using the boto3 library and the Spark session is stopped using `stop()` method.
 
 #### Output:
-The bar plot showing the total number of transactions occurring each month (sorted first on month and then year) between the start and end of the dataset is obtained. The code used to obtain this graph can be found in [`PartA/transactions_total.ipynb`](https://github.com/sasidharan01/ECS765P-analysis-of-ethereum-transactions-and-smart-contracts/blob/master/PartA/transactions_total.ipynb)
+The bar plot showing the total number of transactions occurring each month (sorted first on month and then year) between the start and end of the dataset is obtained. The code used to obtain this graph can be found in [`PartA/transactions_total.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartA/transactions_total.ipynb)
 
-![alt txt](https://github.com/sasidharan01/ECS765P-analysis-of-ethereum-transactions-and-smart-contracts/blob/master/PartA/output/transactions_total.png?raw=true)
+![alt txt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartA/output/transactions_total.png?raw=true)
 
 ### 1.2. Average Transactions
 
@@ -103,7 +103,7 @@ PartA
 10.  ***Storing the results in an S3 bucket:*** The results are then written to S3 bucket as a TXT file `transactions_avg.txt` using the boto3 library and the Spark session is stopped using `stop()` method.
 
 #### Output:
-The bar plot showing the average value of transaction in each month (sorted first on month and then year) between the start and end of the dataset is obtained. The code used to obtain this graph can be found in [`PartA/transactions_average.ipynb`](https://github.com/sasidharan01/ECS765P-analysis-of-ethereum-transactions-and-smart-contracts/blob/master/PartA/transactions_average.ipynb)
+The bar plot showing the average value of transaction in each month (sorted first on month and then year) between the start and end of the dataset is obtained. The code used to obtain this graph can be found in [`PartA/transactions_average.ipynb`](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartA/transactions_average.ipynb)
 
-![alt txt](https://github.com/sasidharan01/ECS765P-analysis-of-ethereum-transactions-and-smart-contracts/blob/master/PartA/output/transactions_avg.png?raw=true)
+![alt txt](https://github.com/Subramaniam-dot/Analysis_of_Ethereum_Transactions/blob/main/PartA/output/transactions_avg.png?raw=true)
 
